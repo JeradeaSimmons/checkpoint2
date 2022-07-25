@@ -1,0 +1,47 @@
+main {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFjU_W6RZPMC1e9wIYfmScq2dZelevMKpgpw&usqp=CAU);
+background-position: center;
+background-size: cover;
+height: 120vh;
+
+}
+
+
+.fighter {
+    height: 28em;
+}
+
+
+.upgradeButton {
+
+    height: 9em;
+    width: 9em;
+}
+
+.knuckleButton {
+    
+    background-image: url(brassKnuckles.jpg);
+  color:white;
+    background-position: center;    
+    background-size: cover;
+}
+
+.razorButton {
+    background-image: url(razorBlade.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.crowdButton {
+    background-image: url(crowd.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.adrenalineButton {
+    background-image: url(adrenaline.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+

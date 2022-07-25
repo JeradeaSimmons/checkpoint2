@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>KO Boxing</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+        <style>.crosshair {cursor: crosshair;}</style>
+        <!-- Bootstrap CSS v5.2.0-beta1 -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="container-fluid">
+            <nav class="row bg-info">
+                <div id="clicks" class="col-4 text-light"></div>
+                <div class="col-lg-4 text-center text-light"><b>UNDERGROUND
+                        BOXING</b></div>
+            </nav>
+        </header>
+
+        <main class="container-fluid">
+            <div id="cash" class="row">
+                <!--<div class="col-4 offset-8 text-light"><p><b>CASH_____</b></p></div>-->
+            </div>
+
+            <div class="row justify-content-end">
+                <div class="col-6">
+                    <div class="row">
+
+                        <div class="col-6">
+                            <button id="knuckleButton" class="upgradeButton
+                                knuckleButton fw-bolder"
+                                onclick="brassKnuckles(),
+                                drawKnucklePurchase()"></button><p
+                                class="bg-dark text-light">Brass
+                                Knuckles</p>
+                        </div>
+
+                        <div class="col-6">
+                            <button class="razorButton
+                                upgradeButton text-light fw-bolder"
+                                onclick="razorBlades()"> </button><p
+                                class="bg-dark text-light"> Razor
+                                Blades</p>
+                        </div>
+
+                        <div class="col-6">
+                            <button class="upgradeButton crowdButton text-light
+                                fw-bolder mb-0" onclick="crowdHype(),
+                                crowdHypeMoney()"></button><p
+                                class="bg-dark text-light mt-0"> <span> Crowd
+                                    Hype</span> <span> Under 25 Health
+                                </span></p>
+                        </div>
+                        <div class="col-6">
+                            <button class="upgradeButton adrenalineButton
+                                fw-bolder"
+                                onclick="adrenaline()"></button> <p
+                                class="text-light bg-dark"><span>
+                                    Adrenaline</span> <span>$500 Damage 100</span></p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="row"><div class="col p-2"></div></div>
+            <div class="row align-content-start m-0">
+                <div id="boxer" class="col-8 crosshair">
+                    <!--   <div class="row justify-content-center
+                        align-content-center">
+                        <div class="col-8">
+                            <img class="img-fluid fighter" onclick="punching()"
+                                src="Fighter.png"
+                                alt="">
+                        </div>
+                        <div class="row">
+                            <col-4><p>Bobo</p></col-4>
+                            <col-4><p><span><b>Life</b></span><span><b>150</b></span></p></col-4>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+
+
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="app.js"></script>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
