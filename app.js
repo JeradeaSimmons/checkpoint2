@@ -164,8 +164,6 @@ function updateCost() {
 
 
 
-
-
 setInterval(crowdHype, 3000)
 
 
