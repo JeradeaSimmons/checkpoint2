@@ -21,13 +21,16 @@ height: 120vh;
 .knuckleButton {
     
     background-image: url(brassKnuckles.jpg);
-  color:white;
+    
+  text-shadow: 25px;
+  color: #fbfafc;
     background-position: center;    
     background-size: cover;
 }
 
 .razorButton {
     background-image: url(razorBlade.webp);
+    color: white;
     background-position: center;
     background-size: cover;
 }
@@ -36,6 +39,8 @@ height: 120vh;
     background-image: url(crowd.jpg);
     background-position: center;
     background-size: cover;
+    color: #fbfafc;
+    
 }
 
 .adrenalineButton {

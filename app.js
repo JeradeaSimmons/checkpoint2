@@ -94,24 +94,17 @@ function brassKnuckles() {
     drawMoney()
 
 
-    boxers.Razor.health -= 3 * 1;
+    boxers.Razor.health -= 5 * 1;
     brassKnucklesClicks = brassKnucklesClicks + 1;
     knucklePurchase.innerText = brassKnucklesClicks;
 }
 
-function drawKnucklePurchase() {
-
-
-
-    {
 
 
 
 
-    }
-
-
-}
+let razorPurchase = document.getElementById('razorBladeButton')
+let razorBladeClicks = 0
 function razorBlades() {
     if (moneys.cash.value < 40) {
         return
@@ -121,9 +114,13 @@ function razorBlades() {
     moneys.cash.value -= 40
     drawMoney()
 
-    boxers.Razor.health -= 5 * 2
+    boxers.Razor.health -= 5 * 5
+    razorBladeClicks = razorBladeClicks + 1;
+    razorPurchase.innerText = razorBladeClicks;
 }
 
+let crowdMoney = document.getElementById('crowdButton')
+let crowdHypeMoneys = 0
 function crowdHype() {
     if (boxers.Razor.health > 25) {
         return
@@ -132,29 +129,31 @@ function crowdHype() {
 
 
     drawMoney()
-
-}
-function crowdHypeMoney() {
-    if (true) {
-        moneys.cash.value += 50
-    }
-
+    crowdHypeMoneys = crowdHypeMoneys += 100;
+    crowdMoney.innerText = crowdHypeMoneys
 
 
 }
 
+let adrenalinePurchase = document.getElementById('adrenalineButton')
+let adrenalineClicks = 0
 
 function adrenaline() {
-    if (moneys.cash.value < 200) {
+    if (moneys.cash.value < 60) {
         return
     }
-    moneys.cash.value -= 200
+    moneys.cash.value -= 60
+
+
+    boxers.Razor.health -= 5 * 15
     drawMoney()
-
-    boxers.Razor.health -= 10 * 3
-
+    adrenalineClicks = adrenalineClicks += 1;
+    adrenalinePurchase.innerText = adrenalineClicks;
 }
 
+function updateCost() {
+
+}
 
 
 
